@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+justify-content: center;
+}
+.container{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+.container h3{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-shadow: auto;
+    margin-bottom: 30px;
+}
+.container #form label{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
+}
+.container #form #name,#price{
+    padding: 10px;
+    margin-left: 15px;
+}
+.container #form #price{
+    position: relative;
+    left: 12%;
+    margin-top: 20px;
+}
+.container #form button{
+ margin-top:30px ;   
+ margin-bottom: 20px;
+ width: 250px;
+}
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  
+  
+  
